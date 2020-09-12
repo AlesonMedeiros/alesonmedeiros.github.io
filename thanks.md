@@ -1,7 +1,6 @@
 ---
-title: Thanks!
-indexing: false
-sitemap: false
+layout: page
+title: Thanks For Your Message
+permalink: /thanks/
 ---
-
-Thanks for getting in touch! We'll respond as soon as we can.
+{{ site.text.thanks }}
