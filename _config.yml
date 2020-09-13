@@ -1,85 +1,63 @@
-# Site settings
-title:       Áleson Medeiros | Blog
-email:       contato@pinguimcriativo.com
-author:      Áleson Santos de Medeiros
-description: "Meu Blog pessoal."
-baseurl:     ""
-url:         "https://mixyll.saikiransripada.com"
-date_format: "%b %-d, %Y"
+title: Áleson Medeiros | Blog
+email: contato@pinguimcriativo.com
+author: Áleson Santos de Medeiros
+description: Meu Blog pessoal.
+baseurl: ''
+url: 'https://alesonmedeiros.github.io'
+date_format: '%b %-d, %Y'
 header_pages:
- - about.md
- - contact.html
-
-google_analytics:
-
-# Optional features
-animated:             true
-show_related_posts:   true
-show_post_footers:    false
-show_social_icons:    true
-
-# Preview image for social media aka og:image and twitter:image
+  - index.html
+  - about.md
+  - contact.html
+google_analytics: null
+animated: true
+show_related_posts: true
+show_post_footers: false
+show_social_icons: true
 post_preview_image: false
-
-# Disqus post comments
-disqus_shortname:
-
-# Social icons
+disqus_shortname: null
 github_username: alesonmedeiros
 twitter_username: alesonmedeiros
-# linkedin_username: alesonmedeiros
-# dev_username: dev_user
-
-# Post sharing icons
 show_sharing_icons: true
-# Change to 'true' to enable individual icons
-# share_facebook: true
 share_twitter: true
-# share_googleplus: true
-# share_linkedin: true
-# share_digg: true
-# share_tumblr: true
-# share_reddit: true
-# share_stumbleupon: true
-# 
-# share_hackernews: true
-
 text:
   pagination:
-    newer: 'Postagens Novas'
-    older: 'Postagens Antigas'
+    newer: Postagens Novas
+    older: Postagens Antigas
   share_buttons:
-    text:         'Compartilhe:'
-    facebook:     'Compartilhe no Facebook'
-    twitter:      'Compartilhe no Twitter'
-    googleplus:   'Compartilhe no Google+'
-    linkedin:     'Compartilhe no LinkedIn'
-    digg:         'Compartilhe no Digg'
-    tumblr:       'Compartilhe no Tumblr'
-    reddit:       'Compartilhe no Reddit'
-    stumbleupon:  'Compartilhe no StumbleUpon'
-    hackernews:   'Compartilhe no Hacker News'
+    text: 'Compartilhe:'
+    facebook: Compartilhe no Facebook
+    twitter: Compartilhe no Twitter
+    googleplus: Compartilhe no Google+
+    linkedin: Compartilhe no LinkedIn
+    digg: Compartilhe no Digg
+    tumblr: Compartilhe no Tumblr
+    reddit: Compartilhe no Reddit
+    stumbleupon: Compartilhe no StumbleUpon
+    hackernews: Compartilhe no Hacker News
   post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
-    post_footer:    'Lorem ipsum'
+    updated: Updated
+    minute_read: Tempo de Leitura
+    related_posts: Posts Relacionados
+    post_footer: Lorem ipsum
   index:
-    coming_soon: 'Coming soon...'
-  og_locale: 'pt_BR'
-
-# Build settings
-markdown:     kramdown
+    coming_soon: Coming soon...
+  og_locale: pt_BR
+markdown: kramdown
 redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    :title
-paginate:     4
+  extensions:
+    - smart
+    - tables
+    - with_toc_data
+permalink: ':title'
+paginate: 4
 sass:
   style: compressed
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
+  - jemoji
+  - jekyll-admin
 exclude:
   - Gemfile
   - Gemfile.lock
