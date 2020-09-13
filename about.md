@@ -1,20 +1,15 @@
 ---
 layout: page
-title: About Mixyll
+title: Sobre
 permalink: /about/
 tags: about
 ---
 
-This Jekyll theme was originally crafted by [John Otander](http://johnotander.com) as [Pixyll](https://github.com/johno/pixyll) and modified by [Sai Kiran Sripada](https://www.saikiransripada.com/).
+Meu nome é Áleson Medeiros e eu me defino como uma pessoa simples e só. Gosto muito de aprender coisas novas, incluse esse blog pessoal faz parte de uma aventura de conhecimento que nesse momento estou empreendendo. A idéia do Blog é escrever sobre as minhas experiências de aprendizado atual e escrever sobre o que me der na telha, diferente do que faço no meu projeto [O Pinguim Criativo](https://instagram.com/pinguimcriativo)
 
-Checkout the [Github repository](https://github.com/saikiransripada/mixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+Atualmente eu estou tentando aprender aprender mais sobre Jekyll, Markdown, [Programação em Bash](https://www.youtube.com/playlist?list=PLXoSGejyuQGpf4X-NdGjvSlEFZhn2f2H7), Java Script e qualquer outra coisa que me der vontade.
 
-Thanks to the following:
+**Minhas Redes:**
 
-* [Pixyll](https://github.com/johno/pixyll)
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+* [O Pinguim Criativo](https://instagram.com/pinguimcriativo)
+* [Twitter](http://twitter.com/alesonmedeiros)
