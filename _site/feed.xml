@@ -35,7 +35,7 @@
 &lt;p&gt;Vamos conferir se a mudança foi realizada com sucesso?&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;cat passwd&lt;/p&gt;
+  &lt;p&gt;cat /etc/passwd&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;br /&gt;

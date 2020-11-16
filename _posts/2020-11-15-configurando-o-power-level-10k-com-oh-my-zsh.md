@@ -24,7 +24,7 @@ E nesse artigo vou seguir essa dica porque é muito mais simples! Vamos no termi
 
 Vamos conferir se a mudança foi realizada com sucesso?
 
->cat passwd
+>cat /etc/passwd
 
 <br>
 ![Imgur](https://i.imgur.com/6PItQ8f.png)

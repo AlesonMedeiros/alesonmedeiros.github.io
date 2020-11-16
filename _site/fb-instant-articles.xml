@@ -40,7 +40,7 @@
 <p>Vamos conferir se a mudança foi realizada com sucesso?</p>
 
 <blockquote>
-  <p>cat passwd</p>
+  <p>cat /etc/passwd</p>
 </blockquote>
 
 <p><br />
