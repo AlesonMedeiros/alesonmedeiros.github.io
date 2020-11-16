@@ -11,7 +11,7 @@ Que tal dar uma personalizada no seu terminal? Uma maneira de fazê-lo é usando
 <br>
 ![Imgur](https://i.imgur.com/hyE4IWy.png)
 
-Apos a instalação do zsh, vamos definí-lo como o nosso shell padrão e fazer essa mudança é algo muito simples! Eu cheguei até fazer um vídeo no [Canal do Pinguim Criativo](https://www.youtube.com/pinguimcriativo) fazendo essa personalização e na ocasião eu usei o tutorial do [Blog Diolinux](https://diolinux.com.br/2017/03/alterar-o-terminal-padrao-bash-zsh.html) que na ocasião me parecia a melhor forma de realizar essa mudança no shell, mas um inscrito deixou uma dica muito útil:
+Apos a instalação do zsh, vamos definí-lo como o nosso shell padrão e fazer essa mudança é algo muito simples! Eu cheguei até fazer um vídeo no [Canal do Pinguim Criativo](https://www.youtube.com/pinguimcriativo) fazendo essa personalização e na ocasião eu usei o tutorial do [Blog Diolinux](https://diolinux.com.br/2017/03/alterar-o-terminal-padrao-bash-zsh.html) que na ocasião me parecia a melhor forma de realizar essa mudança no shell, mas um inscrito deixou uma dica muito útil: **(Uma nota: Quando vc instala o oh-my-zsh, ele já oferece para deixar como shell padrão, porém não faz mal utilizarmos o comando abaixo)**
 
 ![Imgur](https://i.imgur.com/iCnej9Q.png)
 

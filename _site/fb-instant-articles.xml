@@ -24,7 +24,7 @@
 <p><br />
 <img src="https://i.imgur.com/hyE4IWy.png" alt="Imgur" /></p>
 
-<p>Apos a instalação do zsh, vamos definí-lo como o nosso shell padrão e fazer essa mudança é algo muito simples! Eu cheguei até fazer um vídeo no <a href="https://www.youtube.com/pinguimcriativo">Canal do Pinguim Criativo</a> fazendo essa personalização e na ocasião eu usei o tutorial do <a href="https://diolinux.com.br/2017/03/alterar-o-terminal-padrao-bash-zsh.html">Blog Diolinux</a> que na ocasião me parecia a melhor forma de realizar essa mudança no shell, mas um inscrito deixou uma dica muito útil:</p>
+<p>Apos a instalação do zsh, vamos definí-lo como o nosso shell padrão e fazer essa mudança é algo muito simples! Eu cheguei até fazer um vídeo no <a href="https://www.youtube.com/pinguimcriativo">Canal do Pinguim Criativo</a> fazendo essa personalização e na ocasião eu usei o tutorial do <a href="https://diolinux.com.br/2017/03/alterar-o-terminal-padrao-bash-zsh.html">Blog Diolinux</a> que na ocasião me parecia a melhor forma de realizar essa mudança no shell, mas um inscrito deixou uma dica muito útil: <strong>(Uma nota: Quando vc instala o oh-my-zsh, ele já oferece para deixar como shell padrão, porém não faz mal utilizarmos o comando abaixo)</strong></p>
 
 <p><img src="https://i.imgur.com/iCnej9Q.png" alt="Imgur" /></p>
 
