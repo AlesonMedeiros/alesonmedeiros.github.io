@@ -13,9 +13,8 @@
 &lt;p&gt;Que tal dar uma personalizada no seu terminal? Uma maneira de fazê-lo é usando Oh My Zsh juntamente com o tema Power Level 10k! No meu caso, estou utilizando o Deepin que vem com o bash por padrão, assim como a maioria das distros, e nós vamos instalar o &lt;strong&gt;zsh&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-
-  &lt;p&gt;sudo apt install zsh zsh-autosuggestions&lt;/p&gt;
-
+  &lt;p&gt;sudo apt install zsh zsh-autosuggestions
+&lt;br /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hyE4IWy.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
@@ -27,15 +26,16 @@
 &lt;p&gt;E nesse artigo vou seguir essa dica porque é muito mais simples! Vamos no terminal e colocar o comando:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;chsh -s /bin/zsh&lt;/p&gt;
+  &lt;p&gt;chsh -s /bin/zsh
+&lt;br /&gt;
+&lt;img src=&quot;https://i.imgur.com/JYEbRkH.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/JYEbRkH.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Vamos conferir se a mudança foi realizada com sucesso?&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;cat passwd&lt;/p&gt;
+  &lt;p&gt;cat passwd
+&lt;br /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/6PItQ8f.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
@@ -43,7 +43,8 @@
 &lt;p&gt;Podemos notar que deu certo, o shell do meu usuário foi alterado com sucesso, e como eu quero utilizar também no usuário root do sistema, vou entrar com o comando&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;sudo su&lt;/p&gt;
+  &lt;p&gt;sudo su
+&lt;br /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/VYuXoyg.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
@@ -66,6 +67,7 @@
 
   &lt;p&gt;&lt;strong&gt;fetch:&lt;/strong&gt; sh -c “$(fetch -o -https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)”&lt;/p&gt;
 
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/ordNN2f.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
@@ -75,9 +77,16 @@
 
 &lt;h2 id=&quot;instalando-as-fontes-para-o-nosso-terminal&quot;&gt;Instalando as fontes para o nosso terminal&lt;/h2&gt;
 
-&lt;p&gt;Uma coisa que precisamos fazer é instalar fontes que tenham suporte aos ícones que vamos ter em nosso terminal customizado com o &lt;strong&gt;Oh My Zsh + PowerLevel10k&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Uma coisa que precisamos fazer é instalar fontes que tenham suporte aos ícones que vamos ter em nosso terminal customizado com o &lt;strong&gt;Oh My Zsh + PowerLevel10k&lt;/strong&gt;, do contrário ficaremos com um terminal meio bugado.&lt;/p&gt;
 
-&lt;p&gt;Uma fonte que&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/bEMdcef.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Uma fonte que eu recomendo é Hack, que pode ser facilmente baixada no repositório do Nerd Fonts
+&lt;img src=&quot;https://i.imgur.com/LfjlrIi.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Após o download é só instalar no sistema!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/BJhx1Mt.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;instalando-o-powerlevel10k&quot;&gt;Instalando o Powerlevel10k&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/0YSGEcn.png&quot; alt=&quot;Imgur&quot; /&gt;
@@ -85,9 +94,79 @@ Vamos entrar no &lt;a href=&quot;https://github.com/romkatv/powerlevel10k&quot;&
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/SDhGdj8.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Clicando na parte no link, seremos levados até o comando que vamos copiar e colar em nosso terminal&lt;/p&gt;
+&lt;p&gt;Clicando na parte no link, seremos levados até o comando que vamos copiar e colar em nosso terminal
+&lt;img src=&quot;https://i.imgur.com/y2MWfdX.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/y2MWfdX.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/72kcjgQ.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Após a instalação, vamos abrir o arquivo .zshrc conforme indicado no manual&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/RhtArTc.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;para isso é só usar o seguinte comando&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;nano ~/.zshrc
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/wRJSPuT.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E na linha indicada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ZSH_THEME=&lt;/code&gt; é só colocar o nome do tema &lt;strong&gt;“powerlevel10k/powerlevel10k”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/TVj5STV.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Após realizar a alteração é só salvar com o atalho &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + S&lt;/code&gt; e fechar. No meu caso eu vou entrar como Root e realizar também o mesmo procedimento para que quando eu entrar como superusuário também tenha a mesma personalização.&lt;/p&gt;
+
+&lt;h2 id=&quot;configurando-o-tema&quot;&gt;Configurando o tema&lt;/h2&gt;
+
+&lt;p&gt;Depois de salvar as alterações e fecharmos o terminal, quando for aberto novamente ele iniciará os scripts e apresentará as opções de personalização com detalhes que podemos escolher&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/BEsvnuY.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/dlgmBMI.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/k05L963.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hKkeoO0.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/lEVwmUw.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/rzoTpj1.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/8AQUsGi.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/clT6QnM.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/rxEpa0G.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/rsmVX7I.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/80bnMh7.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/T2GLT7D.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/cpdg5EO.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/HKCMZDF.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/bw59RR3.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/3Ruj7mZ.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/HSk2pgO.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/mMP4gmN.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/BFqYLJH.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/bqrUWPx.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Em cada tela temos as opções de como teremos o terminal no final da configuração e também onde o arquivo gerado foi salvo. Caso você enjoe da aparência do terminal e queira mudar algum detalhe da sua configuração é só digitar &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;p10k configure&lt;/code&gt; e ele vai iniciar o script de configuração e ao final irá gerar um novo arquivo.&lt;/p&gt;
+
+&lt;p&gt;Espero que você tenha gostado desse artigo e que seja muito útil nas suas personalizações e prints que você vai enviar para gente postar nas redes sociais do &lt;a href=&quot;https://linktr.ee/pinguimcriativo&quot;&gt;Pinguim Criativo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Aquele abraço e até a próxima!&lt;/p&gt;
 </description>
         <pubDate>Sun, 15 Nov 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/configurando-o-power-level-10k-com-oh-my-zsh</link>
