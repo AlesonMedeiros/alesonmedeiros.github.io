@@ -13,11 +13,11 @@
 &lt;p&gt;Que tal dar uma personalizada no seu terminal? Uma maneira de fazê-lo é usando Oh My Zsh juntamente com o tema Power Level 10k! No meu caso, estou utilizando o Deepin que vem com o bash por padrão, assim como a maioria das distros, e nós vamos instalar o &lt;strong&gt;zsh&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;sudo apt install zsh zsh-autosuggestions
-&lt;br /&gt;&lt;/p&gt;
+  &lt;p&gt;sudo apt install zsh zsh-autosuggestions&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hyE4IWy.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://i.imgur.com/hyE4IWy.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Apos a instalação do zsh, vamos definí-lo como o nosso shell padrão e fazer essa mudança é algo muito simples! Eu cheguei até fazer um vídeo no &lt;a href=&quot;https://www.youtube.com/pinguimcriativo&quot;&gt;Canal do Pinguim Criativo&lt;/a&gt; fazendo essa personalização e na ocasião eu usei o tutorial do &lt;a href=&quot;https://diolinux.com.br/2017/03/alterar-o-terminal-padrao-bash-zsh.html&quot;&gt;Blog Diolinux&lt;/a&gt; que na ocasião me parecia a melhor forma de realizar essa mudança no shell, mas um inscrito deixou uma dica muito útil:&lt;/p&gt;
 
@@ -26,28 +26,29 @@
 &lt;p&gt;E nesse artigo vou seguir essa dica porque é muito mais simples! Vamos no terminal e colocar o comando:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;chsh -s /bin/zsh
-&lt;br /&gt;
-&lt;img src=&quot;https://i.imgur.com/JYEbRkH.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;chsh -s /bin/zsh&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://i.imgur.com/JYEbRkH.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Vamos conferir se a mudança foi realizada com sucesso?&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;cat passwd
-&lt;br /&gt;&lt;/p&gt;
+  &lt;p&gt;cat passwd&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/6PItQ8f.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://i.imgur.com/6PItQ8f.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Podemos notar que deu certo, o shell do meu usuário foi alterado com sucesso, e como eu quero utilizar também no usuário root do sistema, vou entrar com o comando&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;sudo su
-&lt;br /&gt;&lt;/p&gt;
+  &lt;p&gt;sudo su&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/VYuXoyg.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://i.imgur.com/VYuXoyg.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;E depois eu repito o mesmo comando da mudança do Shell em modo &lt;strong&gt;Root&lt;/strong&gt;. Para efetivar a mudança e da próxima vez que abrirmos o terminal já com zsh, é só fazer um logout no sistema.&lt;/p&gt;
 
@@ -67,10 +68,10 @@
 
   &lt;p&gt;&lt;strong&gt;fetch:&lt;/strong&gt; sh -c “$(fetch -o -https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)”&lt;/p&gt;
 
-  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/ordNN2f.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://i.imgur.com/ordNN2f.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;É só aguardar a instalação e configuração básica do script, e no meu caso como eu quero que o usuário root tenha as mesmas configurações, vou repetir esses passos como super-usuário.
 &lt;br /&gt;&lt;/p&gt;
@@ -106,11 +107,11 @@ Vamos entrar no &lt;a href=&quot;https://github.com/romkatv/powerlevel10k&quot;&
 &lt;p&gt;para isso é só usar o seguinte comando&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;nano ~/.zshrc
-&lt;br /&gt;&lt;/p&gt;
+  &lt;p&gt;nano ~/.zshrc&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/wRJSPuT.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://i.imgur.com/wRJSPuT.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;E na linha indicada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ZSH_THEME=&lt;/code&gt; é só colocar o nome do tema &lt;strong&gt;“powerlevel10k/powerlevel10k”&lt;/strong&gt;&lt;/p&gt;
 
