@@ -7,6 +7,79 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Configurando o Fish Shell e Oh My Fish</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Wq1YTvX.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Se você assim como eu está descobrindo os super poderes do shell e tendo cada vez menos medo de utilizar o terminal, que tal testar o fish e deixar o seu terminal bem mais interativo e muito mais amigável? E se adicionarmos a isso a possibilidade de deixá-lo com o visual ao nosso gosto? Se você gostou da ideia, então siga-me os bons!&lt;/p&gt;
+
+&lt;h3 id=&quot;meu-dia-a-dia-com-o-fish-shell&quot;&gt;Meu dia a dia com o fish shell&lt;/h3&gt;
+
+&lt;p&gt;Eu não sei você &lt;strong&gt;amigo internauta&lt;/strong&gt;, mas eu tenho uma dificuldade em gravar os comandos e volta e meio me vejo tendo que recorrer ao google ou o guia foca para lembrar ou simplesmente ir errando muito até acertar. 😂&lt;/p&gt;
+
+&lt;p&gt;Fazendo meus testes e fuçando no google eu me deparei com o fish shell e ao ir pesquisando e ir testando vi que seria muito interessante utilizá-lo em meu pc em todas as distros que utilizo &lt;strong&gt;(atualmente estou no openSUSE Tumleweed e o Debian Testing)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;O fish é um shell de linha de comando inteligente e amigável para macOS, Linux e o resto da família. fish inclui recursos como destaque de sintaxe, autosuggest-as-you-type e preenchimentos de guias sofisticados que simplesmente funcionam, sem a necessidade de configuração.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;instalando-o-fish-shell&quot;&gt;Instalando o fish shell&lt;/h3&gt;
+
+&lt;p&gt;A instalação do fish é super simples em qualquer distro, no meu caso estou fazendo isso no openSUSE e o comando é &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo zypper in fish&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Q7rzNm0.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Depois de instalar o fish precisamos apenas defini-lo como nosso shell utiliando o comando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chsh -s /usr/bin/fish&lt;/code&gt;. Caso deseje utilizar ele também para o terminal no modo root é repetir os comandos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/JnrGMVK.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Após fazer isso é só reinciar ou encerrar a sessão para que as alterações terão efeito e na próxima vez que você abrir o terminal já será apresentado ao fish!&lt;/p&gt;
+
+&lt;h3 id=&quot;instalando-e-configurando-o-oh-my-fish&quot;&gt;Instalando e configurando o Oh My Fish&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/qtQdmDq.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para personalizarmos o nosso terminal, vamos instalar o &lt;a href=&quot;https://github.com/oh-my-fish/oh-my-fish&quot;&gt;Oh My Fish&lt;/a&gt; que já trás uma grande quantidade de temas que podemos utilizar!&lt;/p&gt;
+
+&lt;p&gt;Na página do Github do projeto, nós encontramos as instruções de instalação e opções de personalização. Para iniciar é só copiar o comando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl -L https://get.oh-my.fish | fish&lt;/code&gt; e colar no terminal e aguardar o script trabalhar&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Gf5kNVd.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Na parte de baixo da página encontramos as instruções para utilizarmos no nosso Oh My Fish, entre elas temos o plugin para instalação de temas no nosso Shell&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/vyFa1n4.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Temos a opção de verificar os temas que estão disponíveis para utilizarmos no nosso Shell, é só clicar em &lt;a href=&quot;https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md&quot;&gt;preview available themes&lt;/a&gt; ou utilizar o comando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;omf theme&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Eu escolhi o tema &lt;a href=&quot;https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#fishbone&quot;&gt;&lt;strong&gt;fishbone&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/lpcqiY4.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para realizar a instalação de qualquer tema é só digitar no terminal &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;omf install &quot;nome do tema&quot;&lt;/code&gt;, no nosso caso é só digitar no terminal: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;omf install fishbone&lt;/code&gt; e aguardar o script trabalhar!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Jf1VoPV.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E pronto! Já temos o tema instalado, e para verificarmos a saudação é só fecharmos o terminal e abrir de novo ou a depender do caso podemos encerrar a sessão e abrir novamente&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/quJIMmQ.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para instalar tema para usuário root é só seguir os mesmo passos da instalação do usuário comum&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/J8pi7HB.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E voilà! Temos o nosso &lt;strong&gt;Oh My Fish&lt;/strong&gt; devidamente instalado e personalizado!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/NZYyxbw.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Espero que você tenha gostado desse artigo e que seja muito útil nas suas personalizações e prints que você vai enviar para gente postar nas redes sociais do Pinguim Criativo 😋&lt;/p&gt;
+
+&lt;p&gt;Aquele abraço e até a próxima!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Dec 2020 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/configurando-o-fish-shell-e-oh-my-fish</link>
+        <guid isPermaLink="true">http://localhost:4000/configurando-o-fish-shell-e-oh-my-fish</guid>
+      </item>
+    
+      <item>
         <title>Configurando o Power Level 10k com Oh My Zsh</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/GJFnCyo.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
