@@ -33,3 +33,7 @@ Depois de clicar em Ok, teremos uma nova tela onde podemos definir qual será o 
 Podemos testar e teremos o nosso terminal suspenso funcionando belezinha! No canto inferior do terminal temos o ícone de configurações onde podemos mexer em mais detalhes e deixar ao nosso gosto (ou seu gosto).
 
 ![](/images/captura-de-tela_2020-12-20_12-20-48.png)
+
+Espero que você tenha gostado desse artigo e que seja muito útil nas suas personalizações e prints que você vai enviar para gente postar nas redes sociais do Pinguim Criativo 😋
+
+Aquele abraço e até a próxima!
