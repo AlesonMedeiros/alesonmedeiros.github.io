@@ -2,6 +2,8 @@
 title: Terminal do XFCE em Dropdown
 
 ---
+![](/images/captura-de-tela_2020-12-20_12-21-05.png)
+
 Depois de passar um mês no Debian Cinnamon e no openSUSE Tumbleweed (O que no meu caso é algo a ser comemorado 😁) eu voltei a ter que mudar de distro, mas não por problemas no Linux, mas sim no Windows que utilizo em Dual-boot no meu notebook por causa de coisas específicas que eu utilizo no Windows.
 
 Eu pensei em colocar o Debian novamente, mas já estou utilizando ele no meu DietPi e vou utilizar ele também no meu próximo Rasp 4 que está para chegar, por isso resolvi utilizar o Xubuntu 20.04, motivo? "Porque eu quis" (quem te referência vai lembrar 😁).
@@ -27,3 +29,7 @@ e na tela que abre, é só colocar o seguinte comando: **xfce4-terminal --drop-d
 Depois de clicar em Ok, teremos uma nova tela onde podemos definir qual será o atalho de teclado para essa ação
 
 ![](/images/captura-de-tela_2020-12-20_12-20-21.png)
+
+Podemos testar e teremos o nosso terminal suspenso funcionando belezinha! No canto inferior do terminal temos o ícone de configurações onde podemos mexer em mais detalhes e deixar ao nosso gosto (ou seu gosto).
+
+![](/images/captura-de-tela_2020-12-20_12-20-48.png)
