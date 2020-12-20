@@ -10,7 +10,9 @@ Eu pensei em colocar o Debian novamente, mas já estou utilizando ele no meu Die
 
 Uma as coisas que eu gosto no **XFCE** é sua maleabilidade e a sua estabilidade, o que para mim é um ótimo ponto à favor. Uma coisas que gosto personalizar além do próprio ambiente é o Terminal.
 
-![](/images/captura-de-tela_2020-12-20_12-06-11.png)
+# ![](/images/captura-de-tela_2020-12-20_12-06-11.png)
+{% lightbox images/captura-de-tela_2020-12-20_12-06-11.png --thumb="images/captura-de-tela_2020-12-20_12-06-11.png" --data="appfoundry_image_set" --title="The AppFoundry Logo" --alt="This is our logo" --img-style="max-width:90%;" --class="yourclass" %}
+
 
 Pessoalmente fico com preguiça de utilizar o terminal no modo comum com as teclas de atalho **Ctrl + Alt + t**, então um dos modos que acho muito interessante de utilizar é o terminal suspenso (dropdown para quem fez fisk 😆)
 
