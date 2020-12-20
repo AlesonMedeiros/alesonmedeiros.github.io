@@ -9,30 +9,57 @@
     
         
             <item>
-                <title>Configurando o DietPi</title>
-                <link>http://localhost:4000/configurando-o-dietpi</link>
+                <title>Terminal do XFCE em Dropdown</title>
+                <link>http://localhost:4000/terminal-do-xfce-em-dropdown</link>
                 <content:encoded>
                     <![CDATA[
-                    <style>
-    .image-gallery {overflow: auto; margin-left: -1%!important;}
-    .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
-    .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
-    .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
-    .image-gallery li a img {width: 100%; display: block;}
-</style>
+                    <p><img src="/images/captura-de-tela_2020-12-20_12-21-05.png" alt="" /></p>
 
-<ul class="image-gallery"></ul>
+<p>Depois de passar um mês no Debian Cinnamon e no openSUSE Tumbleweed (O que no meu caso é algo a ser comemorado 😁) eu voltei a ter que mudar de distro, mas não por problemas no Linux, mas sim no Windows que utilizo em Dual-boot no meu notebook por causa de coisas específicas que eu utilizo no Windows.</p>
 
-<p><img src="/images/dietpi/" alt="Imgur" /></p>
+<p>Eu pensei em colocar o Debian novamente, mas já estou utilizando ele no meu DietPi e vou utilizar ele também no meu próximo Rasp 4 que está para chegar, por isso resolvi utilizar o Xubuntu 20.04, motivo? “Porque eu quis” (quem te referência vai lembrar 😁).</p>
 
+<p>Uma as coisas que eu gosto no <strong>XFCE</strong> é sua maleabilidade e a sua estabilidade, o que para mim é um ótimo ponto à favor. Uma coisas que gosto personalizar além do próprio ambiente é o Terminal.</p>
+
+<p><img src="/images/captura-de-tela_2020-12-20_12-06-11.png" alt="" /></p>
+
+<p>Pessoalmente fico com preguiça de utilizar o terminal no modo comum com as teclas de atalho <strong>Ctrl + Alt + t</strong>, então um dos modos que acho muito interessante de utilizar é o terminal suspenso (dropdown para quem fez fisk 😆)</p>
+
+<p>E como configurar nosso terminal? Simples e fácil, vamos utilizar o comando bem simples nos atalhos do sistema</p>
+
+<p><img src="/images/captura-de-tela_2020-12-20_12-13-59.png" alt="" /></p>
+
+<p>para adicionarmos um novo atalho de teclado é só clicar em adicionar</p>
+
+<p><img src="/images/captura-de-tela_2020-12-20_12-15-45.png" alt="" /></p>
+
+<p>e na tela que abre, é só colocar o seguinte comando: <strong>xfce4-terminal –drop-down –hide-menubar</strong></p>
+
+<p><img src="/images/captura-de-tela_2020-12-20_12-16-01.png" alt="" /></p>
+
+<p>Depois de clicar em Ok, teremos uma nova tela onde podemos definir qual será o atalho de teclado para essa ação</p>
+
+<p><img src="/images/captura-de-tela_2020-12-20_12-20-21.png" alt="" /></p>
+
+<p>Podemos testar e teremos o nosso terminal suspenso funcionando belezinha! No canto inferior do terminal temos o ícone de configurações onde podemos mexer em mais detalhes e deixar ao nosso gosto (ou seu gosto).</p>
+
+<p><img src="/images/captura-de-tela_2020-12-20_12-20-48.png" alt="" /></p>
+
+<p>Se preferir ver esse tutorial explicado por um profissional zika, indico o vídeo do Leandro Ramos</p>
+
+<iframe id="lbry-iframe" width="560" height="315" src="https://odysee.com/$/embed/xfce-terminal-drop-down-estilo-quake/a5268af9d6001535e60cad883dafade9f032bc84?r=EbT7i5c9NMfYGkwG8k8hHM93esFg5nTN" allowfullscreen=""></iframe>
+
+<p>Espero que você tenha gostado desse artigo e que seja muito útil nas suas personalizações e prints que você vai enviar para gente postar nas redes sociais do Pinguim Criativo 😋</p>
+
+<p>Aquele abraço e até a próxima!</p>
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/configurando-o-dietpi</guid>
+                <guid isPermaLink="false">/terminal-do-xfce-em-dropdown</guid>
                 <description>
                     
                 </description>
-                <pubDate>Fri, 18 Dec 2020 00:00:00 -0300</pubDate>
+                <pubDate>Sun, 20 Dec 2020 00:00:00 -0300</pubDate>
                 <author>Áleson Santos de Medeiros</author>
             </item>
         
