@@ -11,3 +11,19 @@ Uma as coisas que eu gosto no **XFCE** é sua maleabilidade e a sua estabilidade
 ![](/images/captura-de-tela_2020-12-20_12-06-11.png)
 
 Pessoalmente fico com preguiça de utilizar o terminal no modo comum com as teclas de atalho **Ctrl + Alt + t**, então um dos modos que acho muito interessante de utilizar é o terminal suspenso (dropdown para quem fez fisk 😆)
+
+E como configurar nosso terminal? Simples e fácil, vamos utilizar o comando bem simples nos atalhos do sistema
+
+![](/images/captura-de-tela_2020-12-20_12-13-59.png)
+
+para adicionarmos um novo atalho de teclado é só clicar em adicionar
+
+![](/images/captura-de-tela_2020-12-20_12-15-45.png)
+
+e na tela que abre, é só colocar o seguinte comando: **xfce4-terminal --drop-down --hide-menubar**
+
+![](/images/captura-de-tela_2020-12-20_12-16-01.png)
+
+Depois de clicar em Ok, teremos uma nova tela onde podemos definir qual será o atalho de teclado para essa ação
+
+![](/images/captura-de-tela_2020-12-20_12-20-21.png)
