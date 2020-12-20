@@ -34,6 +34,8 @@ Podemos testar e teremos o nosso terminal suspenso funcionando belezinha! No can
 
 ![](/images/captura-de-tela_2020-12-20_12-20-48.png)
 
+Se preferir ver esse tutorial explicado por um profissional zika, indico o vídeo do Leandro Ramos
+
 Espero que você tenha gostado desse artigo e que seja muito útil nas suas personalizações e prints que você vai enviar para gente postar nas redes sociais do Pinguim Criativo 😋
 
 Aquele abraço e até a próxima!
