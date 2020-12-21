@@ -40,7 +40,7 @@ No canto inferior do terminal temos o ícone de configurações onde podemos mex
 
 Se preferir ver esse tutorial explicado por um profissional zika, indico o vídeo do Leandro Ramos
 
-<iframe id="lbry-iframe" width="560" height="315" src="https://odysee.com/$/embed/xfce-terminal-drop-down-estilo-quake/a5268af9d6001535e60cad883dafade9f032bc84?r=EbT7i5c9NMfYGkwG8k8hHM93esFg5nTN" allowfullscreen></iframe>
+-> <iframe id="lbry-iframe" width="560" height="315" src="https://odysee.com/$/embed/xfce-terminal-drop-down-estilo-quake/a5268af9d6001535e60cad883dafade9f032bc84?r=EbT7i5c9NMfYGkwG8k8hHM93esFg5nTN" allowfullscreen></iframe> <-
 
 Espero que você tenha gostado desse artigo e que seja muito útil nas suas personalizações e prints que você vai enviar para gente postar nas redes sociais do Pinguim Criativo 😋
 
