@@ -2,6 +2,8 @@
 title: Configurar ações personalizadas do Thunar
 
 ---
+![](https://i.imgur.com/RnntJF2.png)
+
 Continuando a minha saga em deixar o sistema cada vez mais a minha cara e do jeito que facilita o meu uso diário, eu pesquisei por uma funcionalidade que muitas vezes me é útil e algumas distros já trazem por padrão, que é abrir o gerenciador de arquivos em modo root (o que não é muito indicado ou não é o ideal), porém se eu tenho a liberdade para fazer isso e eu sei o que estou fazendo, por que não? 😆
 
 Pesquisando no Google como seria possível fazer algo do tipo encontrei a documentação oficial (que é sempre o melhor lugar para ler).
