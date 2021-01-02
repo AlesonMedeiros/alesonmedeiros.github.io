@@ -42,6 +42,6 @@ Na aba Condições para aparecer, é só marcar a opção Diretório para que a 
 
 ![](https://i.imgur.com/RnntJF2.png)
 
-Agora é só utilizar com moderação e nos locais certos (acho que nem preciso avisar sobre isso, mas por via das dúvidas 🤷‍♂️😁![🤷‍♂️](https://s.w.org/images/core/emoji/13.0.1/svg/1f937-200d-2642-fe0f.svg)![😁](https://s.w.org/images/core/emoji/13.0.1/svg/1f601.svg)) do contrário você pode vir a ferrar todo o sistema.
+Agora é só utilizar com moderação e nos locais certos (acho que nem preciso avisar sobre isso, mas por via das dúvidas 🤷‍♂️😆), do contrário você pode vir a ferrar todo o sistema.
 
 Espero que você tenha gostado desse artigo e que seja muito útil para você, aquele abraço e até a próxima!
