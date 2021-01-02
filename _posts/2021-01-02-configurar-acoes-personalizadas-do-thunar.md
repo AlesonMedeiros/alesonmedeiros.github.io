@@ -16,7 +16,7 @@ As instruções são bem simples e claras e o modo de fazer também é muito fá
 
 ![](https://i.imgur.com/tsvqtFH.png)
 
-Basta abrir o thunar e clicar em **Editar** e clicamos em **Configurar ações personalizadas**
+Basta abrir o thunar e clicar em **Editar** e clicamos em **Configurar ações personalizadas.**
 
 ![](https://i.imgur.com/w7ttloE.png)
 
