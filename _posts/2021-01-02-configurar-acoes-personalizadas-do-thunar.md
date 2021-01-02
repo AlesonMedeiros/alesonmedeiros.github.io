@@ -2,7 +2,7 @@
 title: Configurar ações personalizadas do Thunar
 
 ---
-Continuando a minha saga em deixar o sistema cada vez mais a minha cara e do jeito que facilita o meu uso diário, eu pesquisei por uma funcionalidade que muitas vezes me é útil e algumas distros já trazem por padrão, que é abrir o gerenciador de arquivos em modo root (o que não é muito indicado ou não é o ideal), porém se eu tenho a liberdade para fazer isso e eu sei o que estou fazendo, por que não? ![😁](https://s.w.org/images/core/emoji/13.0.1/svg/1f601.svg)
+Continuando a minha saga em deixar o sistema cada vez mais a minha cara e do jeito que facilita o meu uso diário, eu pesquisei por uma funcionalidade que muitas vezes me é útil e algumas distros já trazem por padrão, que é abrir o gerenciador de arquivos em modo root (o que não é muito indicado ou não é o ideal), porém se eu tenho a liberdade para fazer isso e eu sei o que estou fazendo, por que não? 😆
 
 Pesquisando no Google como seria possível fazer algo do tipo encontrei a documentação oficial (que é sempre o melhor lugar para ler).
 
@@ -24,7 +24,7 @@ Clicar no ícone de **Adicionar uma nova ação personalizada**.
 
 ![](https://i.imgur.com/OaeT5gV.png)
 
-Em nome podemos colocar o nome que vai aparecer quando clicarmos com o botão direito dentro do thunar, no meu caso eu coloquei Abrir como Root, em descrição… Bem, essa parte é auto-explicativa ![😆](https://s.w.org/images/core/emoji/13.0.1/svg/1f606.svg). Em comando vamos utilizar as instruções da documentação, no meu caso (no xubuntu) o comando utilizado foi **pkexec thunar %f**.
+Em nome podemos colocar o nome que vai aparecer quando clicarmos com o botão direito dentro do thunar, no meu caso eu coloquei Abrir como Root, em descrição… Bem, essa parte é auto-explicativa 😆. Em comando vamos utilizar as instruções da documentação, no meu caso (no xubuntu) o comando utilizado foi **pkexec thunar %f**.
 
 ![](https://i.imgur.com/oQ8grT6.png)
 
@@ -42,6 +42,6 @@ Na aba Condições para aparecer, é só marcar a opção Diretório para que a 
 
 ![](https://i.imgur.com/RnntJF2.png)
 
-Agora é só utilizar com moderação e nos locais certos (acho que nem preciso avisar sobre isso, mas por via das dúvidas ![🤷‍♂️](https://s.w.org/images/core/emoji/13.0.1/svg/1f937-200d-2642-fe0f.svg)![😁](https://s.w.org/images/core/emoji/13.0.1/svg/1f601.svg)) do contrário você pode vir a ferrar todo o sistema.
+Agora é só utilizar com moderação e nos locais certos (acho que nem preciso avisar sobre isso, mas por via das dúvidas 🤷‍♂️😁![🤷‍♂️](https://s.w.org/images/core/emoji/13.0.1/svg/1f937-200d-2642-fe0f.svg)![😁](https://s.w.org/images/core/emoji/13.0.1/svg/1f601.svg)) do contrário você pode vir a ferrar todo o sistema.
 
 Espero que você tenha gostado desse artigo e que seja muito útil para você, aquele abraço e até a próxima!
